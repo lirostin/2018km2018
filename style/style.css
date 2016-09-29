@@ -1,1 +1,2 @@
-﻿body {  background-color: #FF0000;}
+﻿body {  /* background-color: #8B4513; */ background-image: url("/images/gravity-falls.gif"); background-image: url('/images/gravity-falls.gif');}
+h1 {color: #ff0000; background-color: #7FFFD4;} /* color - заливка шрифта */
