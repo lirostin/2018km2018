@@ -1,2 +1,14 @@
-﻿body {  /* background-color: #8B4513; */ background-image: url("/images/gravity-falls.gif"); background-image: url('/images/gravity-falls.gif');}
-h1 {color: #ff0000; background-color: #7FFFD4;} /* color - заливка шрифта */
+﻿body {background-color: #8B4513; background-image: url("images/gravity-falls.jpeg"); background-position: top left; }
+h1 {color: #ff0000; background-color: #663300;} /* color - заливка шрифта */
+
+#top { height: 10%; width:100%; border: 3px double black; border-style: double; background-color: #663300 }
+#left { height: 80%; width:20%; float: left}
+#content { height: 80%; width:60%; float:left}
+#right { height: 80%; width:20%; float:left}
+#bottom { height: 10%; width:100%; border: 1px double black; clear: both} 
+
+.imgCenter {text-align:center;}
+
+a {color: #00CCFF; /* Цвет обычной ссылки */  text-decoration: none; /* Убираем подчеркивание у ссылок */ }
+a:visited {color: #FF0000; /* Цвет посещённой ссылки */} 
+a:hover {color: #663300; /* Цвет ссылки при наведении на нее курсора мыши */text-decoration: underline; /* Добавляем подчеркивание */}
